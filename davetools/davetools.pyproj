@@ -22,10 +22,85 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="animtools\bakeCtrls.py" />
+    <Compile Include="animtools\ui\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="animtools\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="arc\dave_weapon_rig.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="arc\dave_weapon_util.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="arc\ui\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="arc\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="core\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="davestartup\userSetup.py" />
+    <Compile Include="davestartup\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\commandport.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\copy_rename_files.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\edit_jason_files.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\export_files.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\find_files.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\ikGripStandalone.py" />
+    <Compile Include="misc_util\ikGripUpdate.py" />
+    <Compile Include="misc_util\isoHeadCam.py" />
+    <Compile Include="misc_util\log_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\material_patch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\p4_file_info.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\patchExportFileStandalone.py" />
+    <Compile Include="misc_util\patch_export_file.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\repalce_file_item.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_util\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modellingtools\cut_meshes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modellingtools\ui\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modellingtools\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skinningtools\dave_skinxfer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skinningtools\ui\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skinningtools\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="__init__.py">
@@ -36,8 +111,22 @@
     <InterpreterReference Include="Global|PythonCore|2.7" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="core\" />
+    <Folder Include="animtools\" />
+    <Folder Include="animtools\ui\" />
     <Folder Include="arc\" />
+    <Folder Include="arc\ui\" />
+    <Folder Include="core\" />
+    <Folder Include="davestartup\" />
+    <Folder Include="misc_util\" />
+    <Folder Include="modellingtools\" />
+    <Folder Include="modellingtools\ui\" />
+    <Folder Include="skinningtools\" />
+    <Folder Include="skinningtools\ui\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="animtools\ui\bakeCtrlsUI.ui" />
+    <Content Include="arc\ui\CIGWeaponRigUI.ui" />
+    <Content Include="convert_UI.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
