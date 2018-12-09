@@ -303,7 +303,3 @@ class HierarchyObjects:
         cmds.select('*_skinDump')        
         cmds.delete(cmds.ls(sl=1)) 
         return combineMesh
-
-
-       
-
