@@ -44,9 +44,16 @@
     <Compile Include="clothtools\cloth_manager.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="clothtools\cloth_util.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="clothtools\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="core\core_curves.py" />
+    <Compile Include="core\core_joints.py" />
+    <Compile Include="core\core_kinematics.py" />
+    <Compile Include="core\core_util.py" />
     <Compile Include="core\__init__.py">
       <SubType>Code</SubType>
     </Compile>
