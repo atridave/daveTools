@@ -32,7 +32,7 @@ class PatchFile:
 
 
     def writeTempFile(self,tempFile,basePath,name,xValue,yValue,zValue,CHR):        
-        saCcript = os.path.abspath("D:\dave\git\CIGDave\CIGDave\CIGScripts\patchExportFileStandalone.py")      
+        saCcript = os.path.abspath("path")      
         dumpFile = (open(saCcript,'r'))
         text = dumpFile.readlines()
         dumpFile.close()

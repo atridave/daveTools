@@ -28,12 +28,12 @@ def writeFile(sFile,dFile):
     
     for i in range(0,len(text)):
         #print text[i]
-        validOut =  (text[i].find('bpst_fps_gmni_l86.cdf'))     
+        validOut =  (text[i].find('aa.cdf'))     
 
 
         if (validOut) != -1:
             print "line is " , i
-            text[i] = text[i].replace('bpst_fps_gmni_l86.cdf' ,'bpst_fps_gmni_LH86.cdf' )                      
+            text[i] = text[i].replace('aa.cdf' ,'bb.cdf' )                      
             writrNewFile(dFile,text)
 
 

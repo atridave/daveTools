@@ -2,8 +2,8 @@ import os
 
 
 
-path ='f:\\starcitizen\\CryEngine\\Data\\Objects\\fps_weapons'
-tempFile = 'D:\\dave\\git\\daveCIG\\daveCIG\\CIGWork\\cigWorkMain\\cigWorkMain\\testXml.mtl'
+path ='s'
+tempFile = ''
 ext = '.mtl'
 
 def findAndWriteFiles(folder,ext):

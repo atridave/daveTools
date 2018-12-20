@@ -22,17 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="animtools\bakeCtrls.py" />
+    <Compile Include="animtools\anim_util.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="animtools\ui\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="animtools\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="arc\dave_weapon_rig.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="arc\dave_weapon_util.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="arc\ui\__init__.py">
@@ -76,8 +72,6 @@
     <Compile Include="misc_util\find_files.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="misc_util\ikGripStandalone.py" />
-    <Compile Include="misc_util\ikGripUpdate.py" />
     <Compile Include="misc_util\isoHeadCam.py" />
     <Compile Include="misc_util\log_test.py">
       <SubType>Code</SubType>
@@ -88,7 +82,6 @@
     <Compile Include="misc_util\p4_file_info.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="misc_util\patchExportFileStandalone.py" />
     <Compile Include="misc_util\patch_export_file.py">
       <SubType>Code</SubType>
     </Compile>
@@ -98,16 +91,16 @@
     <Compile Include="misc_util\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="modellingtools\cut_meshes.py">
+    <Compile Include="modellingtools\objects_on_curve.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modellingtools\snapshot.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="modellingtools\ui\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="modellingtools\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="skinningtools\dave_skinxfer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="skinningtools\ui\__init__.py">

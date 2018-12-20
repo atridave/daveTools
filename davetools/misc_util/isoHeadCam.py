@@ -11,13 +11,13 @@ def isoHeadCam():
     namespace = ''
     sel = cmds.ls(sl=1)
     print sel
-    if (cmds.window("hedCamWin", exists=True)):
-        cmds.deleteUI("hedCamWin")
+    if (cmds.window("cam", exists=True)):
+        cmds.deleteUI("cam")
     hedCamWin = cmds.window(t= 'HeadCamera',w=1000,h=500)
     headPanel = cmds.paneLayout()
-    headMP = cmds.modelPanel(cam ='male_v7:src:HeadCamera')
+    headMP = cmds.modelPanel(cam =cma)
     cmds.showWindow( hedCamWin )
-    cmds.select('male_v7:src:helmet_geomatry_g',r=1)
+    cmds.select('anyGeom',r=1)
     mel.eval('InvertSelection;')
     #cmds.select(tgl=1,vis=1,ado=1,r=1)
     cmds.isolateSelect(headMP,state=1)

@@ -28,7 +28,7 @@ def updateFiles(path,ext,skeletonAlias):
         editFiles(filedata[i],skeletonAlias)
 
 
-path = 'f:\\starcitizen\\CryEngine\\Data\\Animations\\fps_weapons\\weapons_v7\\klwe\\pistols\\arclightnew'
+path = 'path'
 ext = '.animsettings'
 
-updateFiles(path,ext,'lpst_fps_klwe_arclight')
+updateFiles(path,ext,'changeIT')

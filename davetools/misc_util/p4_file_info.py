@@ -1,7 +1,7 @@
 import sys,os,glob,json
 import P4
 
-folder =  'f:/starcitizen/CryEngine/Data/Animations/fps_weapons/weapons_v7/gmni\shotguns'
+folder =  ''
 basePath = ('/CryEngine'+(folder.split('CryEngine',1)[1]))
 
 
