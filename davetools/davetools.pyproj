@@ -103,6 +103,12 @@
     <Compile Include="modellingtools\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="plugins\velocitynode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="plugins\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="skinningtools\ui\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -127,6 +133,7 @@
     <Folder Include="misc_util\" />
     <Folder Include="modellingtools\" />
     <Folder Include="modellingtools\ui\" />
+    <Folder Include="plugins\" />
     <Folder Include="skinningtools\" />
     <Folder Include="skinningtools\ui\" />
   </ItemGroup>
