@@ -103,10 +103,16 @@
     <Compile Include="modellingtools\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="plugins\callback.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="plugins\velocitynode.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="plugins\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skinningtools\daveskinxfer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="skinningtools\ui\__init__.py">
